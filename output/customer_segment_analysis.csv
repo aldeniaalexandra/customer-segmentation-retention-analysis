@@ -1,0 +1,9 @@
+Customer_Segment,Customer_Count,Avg_Recency,Avg_Frequency,Avg_Monetary,Avg_RFM_Score,Percentage,Total_Revenue,Revenue_Percentage
+At Risk,437,75.13,4.47,1075.21,10.82,10.54,469866.21,13.33
+Cannot Lose Them,433,147.88,2.42,517.01,7.92,10.44,223867.3,6.35
+Champions,895,14.76,10.37,2410.91,14.03,21.59,2157764.48,61.22
+Lost Customers,498,253.82,1.01,106.79,3.67,12.01,53183.04,1.51
+Loyal Customers,501,17.12,3.11,582.22,11.13,12.08,291694.32,8.28
+New Customers,650,146.15,1.06,211.82,5.49,15.68,137686.18,3.91
+Potential Loyalists,611,35.86,1.56,285.1,8.07,14.74,174193.29,4.94
+Promising,121,201.39,2.13,134.55,5.74,2.92,16281.08,0.46

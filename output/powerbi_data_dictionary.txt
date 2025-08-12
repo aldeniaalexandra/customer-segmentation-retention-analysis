@@ -1,0 +1,46 @@
+
+# Power BI Data Dictionary - Customer Segmentation Analysis
+
+## powerbi_customer_analysis.csv (Main Dataset)
+- CustomerID: Unique customer identifier
+- Country: Customer country
+- Customer_Segment: RFM-based segment (Champions, At Risk, etc.)
+- ML_Cluster: Machine learning cluster assignment (0-4)
+- Recency: Days since last purchase
+- Frequency: Total number of orders
+- Monetary: Total customer revenue
+- RFM_Value: Combined RFM score (3-15)
+- AvgOrderValue: Average order amount
+- UniqueProducts: Number of different products purchased
+- CLV: Customer Lifetime Value prediction
+- Churn_Probability: ML-predicted churn probability (0-1)
+- Churn_Risk_Level: Low/Medium/High risk categories
+- RFM_Category: Low/Medium/High/Premium value tiers
+- CLV_Category: CLV quartile groupings
+- Recency_Category: Active/Recent/Dormant/Lost status
+
+## powerbi_segment_kpis.csv (KPI Dashboard)
+- Customer_Segment: Segment name
+- Customer_Count: Number of customers in segment
+- Total_Revenue: Segment revenue contribution
+- Avg_Revenue_Per_Customer: Average customer value
+- Customer_Percentage: % of total customer base
+- Revenue_Percentage: % of total revenue
+- CLV_Percentage: % of total predicted CLV
+- Avg_Churn_Risk: Average churn probability in segment
+
+## powerbi_monthly_cohorts.csv (Time Analysis)
+- CustomerID: Customer identifier
+- YearMonth: Transaction period (YYYY-MM format)
+- Monthly_Revenue: Customer revenue in that month
+- Monthly_Orders: Number of orders in month
+- Customer_Segment: Customer's segment classification
+- CLV_Category: Customer's CLV tier
+
+## powerbi_country_analysis.csv (Geographic Analysis)
+- Country: Country name
+- Total_Customers: Number of customers
+- Total_Revenue: Country revenue contribution
+- Total_CLV: Predicted CLV for country
+- Avg_Churn_Risk: Average churn risk in country
+- Avg_RFM_Score: Average RFM performance

@@ -1,0 +1,9 @@
+Customer_Segment,Total_Customers,Churned_Customers,Churn_Rate,Revenue_At_Risk
+At Risk,437,104,0.238,111828.15798
+Cannot Lose Them,433,329,0.76,170139.14952
+Champions,895,0,0.0,0.0
+Lost Customers,498,480,0.964,51268.45056
+Loyal Customers,501,0,0.0,0.0
+New Customers,650,365,0.562,77379.63372200001
+Potential Loyalists,611,0,0.0,0.0
+Promising,121,112,0.926,15076.28008
